@@ -15,6 +15,12 @@
 		B93577FF1F43E8E800238F0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B93577FD1F43E8E800238F0B /* LaunchScreen.storyboard */; };
 		B935780A1F43E8E800238F0B /* LeftSlideTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B93578091F43E8E800238F0B /* LeftSlideTests.m */; };
 		B93578151F43E8E800238F0B /* LeftSlideUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B93578141F43E8E800238F0B /* LeftSlideUITests.m */; };
+		B93578231F43E92A00238F0B /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B93578221F43E92A00238F0B /* 1.jpg */; };
+		B93578271F43E98600238F0B /* LeftSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B93578261F43E98600238F0B /* LeftSlideViewController.m */; };
+		B935782A1F43E99000238F0B /* UIView_extra.m in Sources */ = {isa = PBXBuildFile; fileRef = B93578291F43E99000238F0B /* UIView_extra.m */; };
+		B93578311F43E99C00238F0B /* otherViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B935782C1F43E99C00238F0B /* otherViewController.m */; };
+		B93578321F43E99C00238F0B /* LeftSortsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B935782E1F43E99C00238F0B /* LeftSortsViewController.m */; };
+		B93578331F43E99C00238F0B /* MainPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B93578301F43E99C00238F0B /* MainPageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,17 @@
 		B93578101F43E8E800238F0B /* LeftSlideUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeftSlideUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B93578141F43E8E800238F0B /* LeftSlideUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LeftSlideUITests.m; sourceTree = "<group>"; };
 		B93578161F43E8E800238F0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B93578221F43E92A00238F0B /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		B93578251F43E98200238F0B /* LeftSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSlideViewController.h; sourceTree = "<group>"; };
+		B93578261F43E98600238F0B /* LeftSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSlideViewController.m; sourceTree = "<group>"; };
+		B93578281F43E98C00238F0B /* UIView_extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIView_extra.h; sourceTree = "<group>"; };
+		B93578291F43E99000238F0B /* UIView_extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIView_extra.m; sourceTree = "<group>"; };
+		B935782B1F43E99C00238F0B /* otherViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = otherViewController.h; sourceTree = "<group>"; };
+		B935782C1F43E99C00238F0B /* otherViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = otherViewController.m; sourceTree = "<group>"; };
+		B935782D1F43E99C00238F0B /* LeftSortsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftSortsViewController.h; sourceTree = "<group>"; };
+		B935782E1F43E99C00238F0B /* LeftSortsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftSortsViewController.m; sourceTree = "<group>"; };
+		B935782F1F43E99C00238F0B /* MainPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainPageViewController.h; sourceTree = "<group>"; };
+		B93578301F43E99C00238F0B /* MainPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainPageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +118,18 @@
 		B93577EE1F43E8E800238F0B /* LeftSlide */ = {
 			isa = PBXGroup;
 			children = (
+				B93578221F43E92A00238F0B /* 1.jpg */,
+				B93578241F43E97A00238F0B /* LeftSlideViewController */,
 				B93577F21F43E8E800238F0B /* AppDelegate.h */,
 				B93577F31F43E8E800238F0B /* AppDelegate.m */,
 				B93577F51F43E8E800238F0B /* ViewController.h */,
 				B93577F61F43E8E800238F0B /* ViewController.m */,
+				B935782B1F43E99C00238F0B /* otherViewController.h */,
+				B935782C1F43E99C00238F0B /* otherViewController.m */,
+				B935782D1F43E99C00238F0B /* LeftSortsViewController.h */,
+				B935782E1F43E99C00238F0B /* LeftSortsViewController.m */,
+				B935782F1F43E99C00238F0B /* MainPageViewController.h */,
+				B93578301F43E99C00238F0B /* MainPageViewController.m */,
 				B93577F81F43E8E800238F0B /* Main.storyboard */,
 				B93577FB1F43E8E800238F0B /* Assets.xcassets */,
 				B93577FD1F43E8E800238F0B /* LaunchScreen.storyboard */,
@@ -138,6 +163,17 @@
 				B93578161F43E8E800238F0B /* Info.plist */,
 			);
 			path = LeftSlideUITests;
+			sourceTree = "<group>";
+		};
+		B93578241F43E97A00238F0B /* LeftSlideViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B93578251F43E98200238F0B /* LeftSlideViewController.h */,
+				B93578261F43E98600238F0B /* LeftSlideViewController.m */,
+				B93578281F43E98C00238F0B /* UIView_extra.h */,
+				B93578291F43E99000238F0B /* UIView_extra.m */,
+			);
+			path = LeftSlideViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +283,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B93577FF1F43E8E800238F0B /* LaunchScreen.storyboard in Resources */,
+				B93578231F43E92A00238F0B /* 1.jpg in Resources */,
 				B93577FC1F43E8E800238F0B /* Assets.xcassets in Resources */,
 				B93577FA1F43E8E800238F0B /* Main.storyboard in Resources */,
 			);
@@ -273,9 +310,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B935782A1F43E99000238F0B /* UIView_extra.m in Sources */,
 				B93577F71F43E8E800238F0B /* ViewController.m in Sources */,
 				B93577F41F43E8E800238F0B /* AppDelegate.m in Sources */,
 				B93577F11F43E8E800238F0B /* main.m in Sources */,
+				B93578331F43E99C00238F0B /* MainPageViewController.m in Sources */,
+				B93578271F43E98600238F0B /* LeftSlideViewController.m in Sources */,
+				B93578311F43E99C00238F0B /* otherViewController.m in Sources */,
+				B93578321F43E99C00238F0B /* LeftSortsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

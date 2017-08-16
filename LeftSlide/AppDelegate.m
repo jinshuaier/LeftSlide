@@ -7,7 +7,8 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MainPageViewController.h"
+#import "LeftSortsViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -16,7 +17,19 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor whiteColor];   //设置通用背景颜色
+    [self.window makeKeyAndVisible];
+    
+    MainPageViewController *mainVC = [[MainPageViewController alloc] init];
+    self.mainNavigationController = [[UINavigationController alloc] initWithRootViewController:mainVC];
+    LeftSortsViewController *leftVC = [[LeftSortsViewController alloc] init];
+    self.LeftSlideVC = [[LeftSlideViewController alloc] initWithLeftView:leftVC andMainView:self.mainNavigationController];
+    self.window.rootViewController = self.LeftSlideVC;
+    
+    //导航栏颜色
+    [[UINavigationBar appearance] setBarTintColor:[UIColor purpleColor]];
     return YES;
 }
 
